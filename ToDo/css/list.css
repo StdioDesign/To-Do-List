@@ -1,0 +1,124 @@
+body {
+    background-image: url(/images/379488.jpg) ;
+    background-position: 100%;
+    background-size: cover;
+    
+}
+
+body, input{
+    font:1em "Dancing Script", sans-serif;
+    color:#363639
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dashed #363639;
+}
+
+/* lista */
+
+.list {
+    background-color: rgba(255,255,255,0.50);
+    margin:20px auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+}
+
+.list .header {
+    font-family: "Kaushan Script", cursive;
+    margin:0 0 10px 0;
+}
+
+/* Itens */
+
+.items {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.items .item.done {
+    text-decoration: line-through;
+}
+
+.items .item.delete {
+    text-decoration: line-through;
+}
+
+
+.items li, .item-add .input {
+    border: 0;
+    border-bottom: 1px dashed rgb(10, 9, 9); 
+    padding: 15px 0;
+}
+
+.items a{
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+/* botao concluido */
+
+.done-button {
+    display: inline-block;
+    font-size: 0.8em;
+    background-color: rgb(17, 98, 204);
+    border: 1px solid rgb(8, 8, 8);
+    color: #fff;
+    padding: 3px 6px;
+    width: 100px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+/* botao deletar */
+.delete-button {
+    display: inline-block;
+    font-size: 0.8em;
+    background-color: rgb(202, 27, 21);
+    border: 1px solid rgb(8, 8, 8);
+    color: #fff;
+    padding: 3px 6px;
+    width: 100px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+/* botao de adicionar */
+
+.submit {
+    background-color: rgb(135, 192, 214);
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid rgb(8, 8, 8);
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sair {
+    display: inline-block;
+    font-size: 0.8em;
+    background-color: rgb(228, 112, 112);
+    border: 1px solid rgb(8, 8, 8);
+    color: #fff;
+    padding: 5px 0px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    opacity: 0.8;
+    text-align: center;
+}
